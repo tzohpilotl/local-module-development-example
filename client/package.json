@@ -2,7 +2,7 @@
   "name": "client",
   "version": "1.0.0",
   "scripts": {
-    "develop": "nodemon --watch index.js --watch ~/.yalc/ index.js"
+    "develop": "nodemon --watch index.js --watch ~/.yalc/ --exec \"./reload\""
   },
   "dependencies": {
     "library-bundle": "file:.yalc/library-bundle"
