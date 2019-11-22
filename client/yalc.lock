@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "library-bundle": {
+      "signature": "16a26d78bfa002566b5bffc67dfd086b",
+      "file": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "scripts": {
+    "develop": "nodemon --watch index.js --watch ~/.yalc/ index.js"
+  },
+  "dependencies": {
+    "library-bundle": "file:.yalc/library-bundle"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}

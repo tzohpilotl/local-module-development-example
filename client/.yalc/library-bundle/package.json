@@ -1,0 +1,13 @@
+{
+  "name": "library-bundle",
+  "version": "1.0.0-16a26d78",
+  "description": "Testing packing a library with webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "develop": "concurrently \"webpack --watch\" \"nodemon --watch dist index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
