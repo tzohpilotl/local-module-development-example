@@ -2,12 +2,15 @@
   "name": "client",
   "version": "1.0.0",
   "scripts": {
-    "develop": "nodemon --watch index.js --watch ~/.yalc/ --exec \"./reload\""
+    "develop": "nodemon --watch index.js --watch ~/.yalc/ --exec \"./reload\"",
+    "removeLocalDependencies": "node removeLocalDependencies.js"
   },
   "dependencies": {
     "library-bundle": "file:.yalc/library-bundle"
   },
   "devDependencies": {
-    "nodemon": "^2.0.1"
+    "nodemon": "^2.0.1",
+    "ramda": "^0.26.1",
+    "yarn-api": "^1.1.0"
   }
 }
