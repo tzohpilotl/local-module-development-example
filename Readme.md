@@ -16,5 +16,9 @@ This example provides basic configuration to build a library with Webpack and
 
 Now every change in the library's code will trigger a rebuild and a publish
  event which in turn will trigger the client to rebuild.
+ 
+## Remember
+- To run the client's `yarn removeLocalDependencies` to avoid pushing a
+ `package.json` file referencing local dependencies. 
 
 
